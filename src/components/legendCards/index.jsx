@@ -1,8 +1,7 @@
 import React from "react";
 import './index.css'
 
-const LegendCard = ({nome, imagem, elemento, numero, descricao, tipo}) => {
-    
+function LegendCard({ nome, imagem, elemento, numero, descricao, tipo }) {
     return (
         <div className={`card-legend type-${elemento.toLowerCase()}`}>
             <div className="card-top">

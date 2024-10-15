@@ -9,7 +9,7 @@ function App() {
 
   const [ selectedLegendId, setSelectedLegend] = useState ("kaen")
 
-  const selectedLegendData = legends.find((card) => card.id === selectedLegendId)
+  const selectedLegendData = legends.find((legend) => legend.id === selectedLegendId)
 
   return (
     <main>
